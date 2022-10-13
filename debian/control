@@ -1,0 +1,25 @@
+Source: node-ini
+Section: javascript
+Priority: optional
+Maintainer: Debian Javascript Maintainers <pkg-javascript-devel@lists.alioth.debian.org>
+Uploaders: Jérémy Lal <kapouer@melix.org>
+Build-Depends: debhelper-compat (= 13)
+ , dh-sequence-nodejs
+ , node-tap <!nocheck>
+Standards-Version: 4.5.1
+Vcs-Browser: https://salsa.debian.org/js-team/node-ini
+Vcs-Git: https://salsa.debian.org/js-team/node-ini.git
+Homepage: https://github.com/isaacs/ini
+Testsuite: autopkgtest-pkg-nodejs
+Rules-Requires-Root: no
+
+Package: node-ini
+Architecture: all
+Depends: ${misc:Depends}
+Multi-Arch: foreign
+Description: ini format parser and serializer for Node.js
+ Read, manipulate and write ini files.
+ Sections are treated as nested objects.
+ Items before the first heading are saved on the object directly.
+ .
+ Node.js is an event-based server-side javascript engine.

@@ -1,0 +1,64 @@
+node-ini (2.0.0-1) unstable; urgency=medium
+
+  * Team upload
+
+  [ Debian Janitor ]
+  * Trim trailing whitespace.
+  * Use secure copyright file specification URI.
+  * Bump debhelper from old 11 to 12.
+  * Set debhelper-compat version in Build-Depends.
+  * Set upstream metadata fields: Bug-Database, Repository, Repository-
+    Browse.
+  * Set upstream metadata fields: Bug-Submit.
+  * Apply multi-arch hints. + node-ini: Add Multi-Arch: foreign.
+
+  [ Xavier Guimard ]
+  * Bump debhelper compatibility level to 13
+  * Declare compliance with policy 4.5.1
+  * Add "Rules-Requires-Root: no"
+  * Add debian/gbp.conf
+  * Modernize debian/watch
+  * Use dh-sequence-nodejs auto test & install
+  * New upstream version 2.0.0 (Closes: #977718)
+
+ -- Xavier Guimard <yadd@debian.org>  Sat, 19 Dec 2020 18:52:24 +0100
+
+node-ini (1.3.5-1) unstable; urgency=medium
+
+  * Team Upload
+  * New upstream version 1.3.5
+  * Bump debhelper compatibility level to 11
+  * Bump Standards-Version to 4.2.1 (no changes needed)
+  * Use salsa.debian.org in Vcs-* fields
+  * Change priority to optional
+  * Enable nocheck build profile
+
+ -- Pirate Praveen <praveen@debian.org>  Sat, 15 Sep 2018 10:37:08 +0530
+
+node-ini (1.3.4-1) unstable; urgency=low
+
+  * Team Upload
+  * New upstream release
+  * Bump debhelper compat and Standards Version
+  * Enable tests
+
+  [ Jérémy Lal ]
+  * control:
+    + Standards-Version 3.9.4
+    + Canonicalize Vcs fields
+  * copyright: add Upstream-Contact and Source fields.
+
+ -- Pirate Praveen <praveen@debian.org>  Thu, 28 Sep 2017 21:53:59 +0530
+
+node-ini (1.1.0-1) unstable; urgency=low
+
+  * New upstream release.
+  * Fix watch file.
+
+ -- Jérémy Lal <kapouer@melix.org>  Sat, 27 Apr 2013 16:27:41 +0200
+
+node-ini (1.0.2-1) unstable; urgency=low
+
+  * Initial release (Closes: #664162)
+
+ -- Jérémy Lal <kapouer@melix.org>  Sat, 17 Mar 2012 23:37:48 +0100
