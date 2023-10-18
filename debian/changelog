@@ -1,3 +1,36 @@
+node-ini (3.0.1-2) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository-Browse, Security-Contact.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 29 Nov 2022 19:31:52 +0000
+
+node-ini (3.0.1-1) unstable; urgency=medium
+
+  * Team upload
+  * Declare compliance with policy 4.6.1
+  * New upstream version 3.0.1
+
+ -- Yadd <yadd@debian.org>  Tue, 23 Aug 2022 11:49:25 +0200
+
+node-ini (2.0.1-2) unstable; urgency=medium
+
+  * Team upload
+  * Fix test for tap >= 15 (--no-cov) (Closes: #1009555)
+
+ -- Yadd <yadd@debian.org>  Thu, 21 Apr 2022 18:13:21 +0200
+
+node-ini (2.0.1-1) unstable; urgency=medium
+
+  * Team upload
+  * Fix GitHub tags regex
+  * Update standards version to 4.6.0, no changes needed.
+  * Fix filenamemangle
+  * New upstream version 2.0.1
+  * Disable one test that requires tap ≥ 15
+
+ -- Yadd <yadd@debian.org>  Mon, 22 Nov 2021 14:35:32 +0100
+
 node-ini (2.0.0-1) unstable; urgency=medium
 
   * Team upload
