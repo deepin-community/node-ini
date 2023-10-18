@@ -1,4 +1,5 @@
-Bug-Database: https://github.com/isaacs/ini/issues
-Bug-Submit: https://github.com/isaacs/ini/issues/new
+Bug-Database: https://github.com/npm/ini/issues
+Bug-Submit: https://github.com/npm/ini/issues/new
 Repository: https://github.com/isaacs/ini.git
-Repository-Browse: https://github.com/isaacs/ini
+Repository-Browse: https://github.com/npm/ini
+Security-Contact: https://github.com/isaacs/ini/tree/HEAD/SECURITY.md
